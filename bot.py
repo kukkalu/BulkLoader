@@ -11,7 +11,7 @@ API_HASH = os.environ.get("API_HASH","8d8d0ad8e3d4bcd54420190f57da78ad") # Api h
 APP_ID = int(os.environ.get('APP_ID','952608')) # Api id/App id
 BOT_TOKEN = os.environ.get('BOT_TOKEN','6144745485:AAFFSe33wLuWwKAWMkau8mYopgJT0OoOCmE') # Bot token
 OWNER_ID = os.environ.get('OWNER_ID','818269274') # Your telegram id
-AS_ZIP = bool(os.environ.get['AS_ZIP']) # Upload method. If True: will Zip all your files and send as zipfile | If False: will send file one by one
+AS_ZIP = bool(os.environ['AS_ZIP']) # Upload method. If True: will Zip all your files and send as zipfile | If False: will send file one by one
 BUTTONS = bool(os.environ.get['BUTTONS']) # Upload mode. If True: will send buttons (Zip or One by One) instead of AZ_ZIP | If False: will do as you've fill on AZ_ZIP
 
 # Buttons
